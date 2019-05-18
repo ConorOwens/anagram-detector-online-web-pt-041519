@@ -7,7 +7,9 @@ class Anagram
   end
   
   def match(anagrams)
-    
+    anagrams.each do |anagram|
+      if anagram.length == @word.length
+        @word.scan(/)
   end
   
 end
