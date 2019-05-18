@@ -10,7 +10,6 @@ class Anagram
     matches = []
     anagrams.select do |anagram|
       anagram.split("").sort == @word.split("").sort
-      end
     end
   end
   
